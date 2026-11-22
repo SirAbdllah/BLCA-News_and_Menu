@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{C716458FF9B84A05}Missions/BLCA_NewsTest.conf"
+ Configurations {
+  CONFResourceClass PC {}
+  CONFResourceClass XBOX_ONE : PC {}
+  CONFResourceClass XBOX_SERIES : PC {}
+  CONFResourceClass PS4 : PC {}
+  CONFResourceClass PS5 : PC {}
+  CONFResourceClass HEADLESS : PC {}
+ }
+}

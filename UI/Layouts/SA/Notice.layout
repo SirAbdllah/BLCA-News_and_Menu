@@ -1,0 +1,337 @@
+FrameWidgetClass {
+ Name "SA_Notice"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 1 1
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight 0
+ OffsetBottom 0
+ }
+ {
+FrameWidgetClass {
+ Name "Panel"
+ Slot FrameWidgetSlot {
+ Anchor 0.5 0.5 0.5 0.5
+ OffsetLeft -500
+ OffsetTop -440
+ OffsetRight -500
+ OffsetBottom -440
+}
+ 
+ {
+ImageWidgetClass {
+ Name "BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -1000
+ OffsetBottom -880
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.025 0.04 0.065 0.98
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "Gold"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -1000
+ OffsetBottom -4
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.85 0.68 0.36 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Title"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 16
+ OffsetRight -970
+ OffsetBottom -58
+}
+ Text "BLCA | YOU ARE BANNED"
+ "Font Size" 28
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Intro0"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 65
+ OffsetRight -970
+ OffsetBottom -109
+}
+ 
+}
+FrameWidgetClass {
+ Name "Intro1"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 104
+ OffsetRight -970
+ OffsetBottom -148
+}
+ 
+}
+TextWidgetClass {
+ Name "ReasonTitle"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 150
+ OffsetRight -970
+ OffsetBottom -180
+}
+ Text "BAN REASON"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Line0"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 183
+ OffsetRight -970
+ OffsetBottom -225
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line1"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 218
+ OffsetRight -970
+ OffsetBottom -260
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line2"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 253
+ OffsetRight -970
+ OffsetBottom -295
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line3"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 288
+ OffsetRight -970
+ OffsetBottom -330
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line4"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 323
+ OffsetRight -970
+ OffsetBottom -365
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line5"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 358
+ OffsetRight -970
+ OffsetBottom -400
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line6"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 393
+ OffsetRight -970
+ OffsetBottom -435
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line7"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 428
+ OffsetRight -970
+ OffsetBottom -470
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line8"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 463
+ OffsetRight -970
+ OffsetBottom -505
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line9"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 498
+ OffsetRight -970
+ OffsetBottom -540
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line10"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 533
+ OffsetRight -970
+ OffsetBottom -575
+}
+ 
+}
+FrameWidgetClass {
+ Name "Line11"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 568
+ OffsetRight -970
+ OffsetBottom -610
+}
+ 
+}
+TextWidgetClass {
+ Name "ExpiryTitle"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 620
+ OffsetRight -970
+ OffsetBottom -650
+}
+ Text "BAN EXPIRES (UTC)"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Expiry0"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 654
+ OffsetRight -970
+ OffsetBottom -698
+}
+ 
+}
+FrameWidgetClass {
+ Name "Expiry1"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 693
+ OffsetRight -970
+ OffsetBottom -737
+}
+ 
+}
+TextWidgetClass {
+ Name "Countdown"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 30
+ OffsetTop 745
+ OffsetRight -970
+ OffsetBottom -785
+}
+ Text "Disconnecting in 10 seconds..."
+ "Font Size" 24
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+ButtonWidgetClass {
+ Name "Close"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 800
+ OffsetTop 805
+ OffsetRight -970
+ OffsetBottom -849
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "CloseContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "CloseBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -44
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "CloseText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -44
+}
+ Text "CLOSE"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+
+ }
+}
+
+ }
+}

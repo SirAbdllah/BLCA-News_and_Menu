@@ -1,0 +1,166 @@
+FrameWidgetClass {
+ Name "BN_News"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 1 1
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -0
+ OffsetBottom -0
+ }
+ "Ignore Cursor" 1
+ "Is Enabled" 0
+ {
+  FrameWidgetClass {
+   Name "Broadcast"
+   Slot FrameWidgetSlot {
+ Anchor 0.5 1 0.5 1
+ OffsetLeft -650
+ OffsetTop -240
+ OffsetRight -650
+ OffsetBottom 48
+ }
+   {
+    ImageWidgetClass {
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+     Name "HeaderBackground"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 1 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -0
+ OffsetBottom -110
+ }
+     Color 0.025 0.04 0.065 0.42
+    }
+    ImageWidgetClass {
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+     Name "Accent"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 1 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -0
+ OffsetBottom -4
+ }
+     Color 0.95 0.07 0.12 0.8
+    }
+    ImageWidgetClass {
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+     Name "BreakingBackground"
+     Slot FrameWidgetSlot {
+ Anchor 1 0 1 0
+ OffsetLeft -230
+ OffsetTop 4
+ OffsetRight -0
+ OffsetBottom -110
+ }
+     Color 0.77 0.025 0.07 0.52
+    }
+    FrameWidgetClass {
+     Name "ArabicTitle"
+     Slot FrameWidgetSlot {
+ Anchor 1 0 1 0
+ OffsetLeft -185
+ OffsetTop 2
+ OffsetRight 10
+ OffsetBottom -80
+ }
+    }
+    TextWidgetClass {
+     Name "BreakingEnglish"
+     Slot FrameWidgetSlot {
+ Anchor 1 0 1 0
+ OffsetLeft -225
+ OffsetTop 72
+ OffsetRight 5
+ OffsetBottom -104
+ }
+     Text "BREAKING NEWS"
+     "Font Size" 23
+     "Horizontal Alignment" Center
+     Color 1 1 1 1
+    }
+    ImageWidgetClass {
+     Name "TeamLogo"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 20
+ OffsetTop 15
+ OffsetRight -120
+ OffsetBottom -95
+ }
+     Color 1 1 1 1
+    }
+    TextWidgetClass {
+     Name "SenderLabel"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 145
+ OffsetTop 20
+ OffsetRight -950
+ OffsetBottom -45
+ }
+     Text "LIVE  /  OFFICIAL BULLETIN"
+     "Font Size" 18
+     Color 0.95 0.62 0.3 1
+    }
+    FrameWidgetClass {
+     Name "TeamName"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 145
+ OffsetTop 39
+ OffsetRight -1000
+ OffsetBottom -99
+ }
+    }
+    ImageWidgetClass {
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+     Name "TickerBackground"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 1 0
+ OffsetLeft 0
+ OffsetTop 110
+ OffsetRight -0
+ OffsetBottom -180
+ }
+     Color 0.63 0.015 0.035 0.52
+    }
+    FrameWidgetClass {
+     Name "TickerClip"
+     Slot FrameWidgetSlot {
+ Anchor 0 0 1 0
+ OffsetLeft 0
+ OffsetTop 110
+ OffsetRight -0
+ OffsetBottom -180
+ }
+     {
+      FrameWidgetClass {
+       Name "TickerLine"
+       Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop -6
+ OffsetRight -20000
+ OffsetBottom -90
+ }
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass {
+   Name "SenderPortrait"
+   Slot FrameWidgetSlot {
+    Anchor 0.5 1 0.5 1
+    OffsetLeft 425
+    OffsetTop -395
+    OffsetRight -645
+    OffsetBottom 175
+   }
+   "Ignore Cursor" 1
+   Color 1 1 1 1
+  }
+ }
+}

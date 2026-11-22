@@ -1,0 +1,1009 @@
+FrameWidgetClass {
+ Name "SA_Players"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 1 1
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight 0
+ OffsetBottom 0
+ }
+ {
+FrameWidgetClass {
+ Name "Panel"
+ Slot FrameWidgetSlot {
+ Anchor 0.5 0.5 0.5 0.5
+ OffsetLeft -500
+ OffsetTop -370
+ OffsetRight -500
+ OffsetBottom -370
+}
+ 
+ {
+ImageWidgetClass {
+ Name "BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -1000
+ OffsetBottom -740
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.025 0.04 0.065 0.98
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "Gold"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -1000
+ OffsetBottom -4
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.85 0.68 0.36 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Title"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 18
+ OffsetRight -928
+ OffsetBottom -60
+}
+ Text "BLCA | ADMIN PLAYERS"
+ "Font Size" 28
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+ButtonWidgetClass {
+ Name "Row0"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 70
+ OffsetRight -968
+ OffsetBottom -110
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row0Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row0BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row0Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label0"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row1"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 113
+ OffsetRight -968
+ OffsetBottom -153
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row1Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row1BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row1Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label1"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row2"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 156
+ OffsetRight -968
+ OffsetBottom -196
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row2Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row2BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row2Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label2"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row3"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 199
+ OffsetRight -968
+ OffsetBottom -239
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row3Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row3BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row3Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label3"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row4"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 242
+ OffsetRight -968
+ OffsetBottom -282
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row4Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row4BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row4Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label4"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row5"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 285
+ OffsetRight -968
+ OffsetBottom -325
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row5Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row5BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row5Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label5"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row6"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 328
+ OffsetRight -968
+ OffsetBottom -368
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row6Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row6BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row6Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label6"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Row7"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 371
+ OffsetRight -968
+ OffsetBottom -411
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "Row7Content"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "Row7BG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -940
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Row7Text"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -928
+ OffsetBottom -40
+}
+ Text ""
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+FrameWidgetClass {
+ Name "Label7"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 3
+ OffsetRight -922
+ OffsetBottom -39
+}
+ "Ignore Cursor" 1
+ Clipping True
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Previous"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 428
+ OffsetRight -198
+ OffsetBottom -468
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "PreviousContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "PreviousBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "PreviousText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -40
+}
+ Text "< PREVIOUS"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Next"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 210
+ OffsetTop 428
+ OffsetRight -380
+ OffsetBottom -468
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "NextContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "NextBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -40
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "NextText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -40
+}
+ Text "NEXT >"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+TextWidgetClass {
+ Name "Page"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 410
+ OffsetTop 433
+ OffsetRight -730
+ OffsetBottom -465
+}
+ Text "PAGE 1"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Selected"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 478
+ OffsetRight -968
+ OffsetBottom -510
+}
+ Text "Selected UUID:"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "ReasonCaption"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 516
+ OffsetRight -188
+ OffsetBottom -548
+}
+ Text "REASON"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "ReasonBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 190
+ OffsetTop 516
+ OffsetRight -968
+ OffsetBottom -560
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.07 0.1 0.15 1
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "ReasonUnderline"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 190
+ OffsetTop 558
+ OffsetRight -968
+ OffsetBottom -560
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.65 0.49 0.27 1
+ "Ignore Cursor" 1
+}
+EditBoxWidgetClass {
+ Name "Reason"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 202
+ OffsetTop 521
+ OffsetRight -956
+ OffsetBottom -555
+}
+ "Font Size" 23
+ "Use placeholder text" 1
+ "Placeholder text" "Enter the reason here..."
+ "Placeholder color" 0.5 0.55 0.62 1
+ FontProperties FontProperties {
+ Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+ }
+}
+TextWidgetClass {
+ Name "MinutesCaption"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 570
+ OffsetRight -458
+ OffsetBottom -600
+}
+ Text "BAN MINUTES (0 = PERMANENT)"
+ "Font Size" 18
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "MinutesBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 460
+ OffsetTop 565
+ OffsetRight -580
+ OffsetBottom -609
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.07 0.1 0.15 1
+ "Ignore Cursor" 1
+}
+ImageWidgetClass {
+ Name "MinutesUnderline"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 460
+ OffsetTop 607
+ OffsetRight -580
+ OffsetBottom -609
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.65 0.49 0.27 1
+ "Ignore Cursor" 1
+}
+EditBoxWidgetClass {
+ Name "Minutes"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 472
+ OffsetTop 570
+ OffsetRight -568
+ OffsetBottom -604
+}
+ "Font Size" 23
+ "Use placeholder text" 1
+ "Placeholder text" "60"
+ "Placeholder color" 0.5 0.55 0.62 1
+ FontProperties FontProperties {
+ Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+ }
+}
+ButtonWidgetClass {
+ Name "Kick"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 610
+ OffsetTop 565
+ OffsetRight -780
+ OffsetBottom -607
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "KickContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "KickBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -42
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "KickText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -42
+}
+ Text "KICK"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+ButtonWidgetClass {
+ Name "Ban"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 798
+ OffsetTop 565
+ OffsetRight -968
+ OffsetBottom -607
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "BanContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "BanBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -42
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "BanText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -42
+}
+ Text "BAN"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+TextWidgetClass {
+ Name "Help"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 622
+ OffsetRight -968
+ OffsetBottom -652
+}
+ Text "Select a player, enter a reason, then choose KICK or BAN."
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "Status"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 28
+ OffsetTop 655
+ OffsetRight -758
+ OffsetBottom -685
+}
+ Text "Ban requires the Windows manager / agent."
+ "Font Size" 18
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+ButtonWidgetClass {
+ Name "Close"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 798
+ OffsetTop 670
+ OffsetRight -968
+ OffsetBottom -712
+}
+ style blank
+ {
+FrameWidgetClass {
+ Name "CloseContent"
+ Slot ButtonWidgetSlot {
+ HorizontalAlign 3
+ VerticalAlign 3
+ }
+ "Ignore Cursor" 1
+ {
+ImageWidgetClass {
+ Name "CloseBG"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 0
+ OffsetTop 0
+ OffsetRight -170
+ OffsetBottom -42
+}
+ Texture "{FEA84D3167004F21}UI/Textures/BN/Solid.edds"
+ Color 0.12 0.17 0.23 1
+ "Ignore Cursor" 1
+}
+TextWidgetClass {
+ Name "CloseText"
+ Slot FrameWidgetSlot {
+ Anchor 0 0 0 0
+ OffsetLeft 12
+ OffsetTop 5
+ OffsetRight -158
+ OffsetBottom -42
+}
+ Text "CLOSE"
+ "Font Size" 20
+ Color 0.9 0.93 0.98 1
+ "Ignore Cursor" 1
+}
+
+ }
+}
+
+ }
+}
+
+ }
+}
+
+ }
+}

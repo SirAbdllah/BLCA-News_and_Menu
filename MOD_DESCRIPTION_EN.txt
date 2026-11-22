@@ -1,0 +1,8 @@
+BLCA News_and_Menu
+Developed by BLCA Development Team
+
+An integrated Arabic-capable news, ESC menu, and administration addon for Arma Reforger. Includes animated broadcasts with a shared BLC logo and faction or server sender labels, a translucent navy pause menu with blue controls, and manually activated staff sessions with separate news, GM, player-list, kick, and ban permissions.
+
+Send news to your faction, everyone, US, or USSR. Temporary bans include a reason, expiry notice, and a 10-second wait before the server attempts a kick. The separately supplied BLCA Admin Manger Windows application handles permissions, players, weather, audit history, activity reports, and connection hours.
+
+Includes a test world and manual #newmenu / #newstest previews. See README_EN.md for installation, commands, and manager connection. The supplied logo retains its BLC lettering.

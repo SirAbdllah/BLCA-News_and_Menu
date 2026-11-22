@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7AA9B5411DF24E02}UI/Textures/BLCA/BLCA_PauseBrand.edds"
+ Configurations {
+  JPGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+  }
+  JPGResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+  }
+  JPGResourceClass XBOX_SERIES : PC {
+  }
+  JPGResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+  }
+  JPGResourceClass PS5 : PC {
+  }
+  JPGResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+  }
+ }
+}

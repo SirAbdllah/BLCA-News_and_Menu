@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A620F06D61B845D1}Sounds/BN/NewsIntro.wav"
+ Configurations {
+  WAVResourceClass PC {}
+  WAVResourceClass XBOX_ONE : PC {}
+  WAVResourceClass XBOX_SERIES : PC {}
+  WAVResourceClass PS4 : PC {}
+  WAVResourceClass PS5 : PC {}
+  WAVResourceClass HEADLESS : PC {}
+ }
+}
